@@ -1,0 +1,52 @@
+<html>
+<head>
+
+<script type="text/javascript" src="script.js"></script>
+<link href="style.css" rel="stylesheet" type="text/css">
+
+
+</head>
+  
+  
+<body>
+  <h2 style="text-align: center">Press <br> play/pause || sound/mute</h2>
+  <h2 style="text-align: center">Slide the bar for<br>audio seek && Volume</h3>
+  <h2 style="text-align: center">Watch the<br>play time && duration</h3>
+ 
+  
+<div id="audio_player">
+  <div id="audio_controls">
+    <button id="playpausebtn"></button>
+    <input id="seekslider" type="range" min="0" max="100" value="0" step="1">
+    
+    <button id="mutebtn"></button>
+    <input id="volumeslider" type="range" min="0" max="100" value="100" step="1">
+    
+    <div id="timebox">
+      <span id="curtimetext">00:00</span> / <span id="durtimetext">00:00</span>
+    </div>
+    
+    <!-- new code for speed audio-->
+  <select id="speedlist">
+  <option value="1">change speed</option>
+  <option value=".5">.5</option>
+  <option value="1">Normal</option>
+  <option value="1.5">1.5</option>
+  <option value="2">2</option>
+</select>
+    
+  </div>
+   
+</div>
+  
+  
+  
+ 
+  
+  
+ <div style="text-align: center" id="footer">
+    <h5 style="text-align: center"><a href="http://www.eleftheriabatsou.com" target="_blank">Eleftheria Batsou</a> | <a href="http://codepen.io/EleftheriaBatsou" target="_blank">Projects</a></h5>
+  </div> <!-- end footer -->
+  
+</body>
+</html>
